@@ -1,0 +1,132 @@
+<HTML>
+<HEAD>
+<STYLE TYPE="text/css">
+<!--
+BODY	{background-attachment:fixed;
+	background-image:url("http://althjp.at-ninja.jp/tpod/universe001.jpg");}
+-->
+</STYLE>
+</HEAD>
+<BODY text="green">
+<center>
+<I><font face="ＭＳ Ｐ明朝,ＭＳ 明朝">
+<font size="5">この中身は見せる訳には行きません<font color="blue"></font></font><BR>
+まあ、このディレクトリーにあるデータはDoCoMo携帯の絵文字画像だけなんですけどね(^_^;)<BR>
+<BR>
+<hr size="1" color="gold">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- javascript
+
+	//変数宣言
+	var dtToday = new Date;
+	var strYear;
+	var strMonth;
+	var strDate;
+	var strDay = new Array("日","月","火","水","木","金","土");
+
+	//年月日を取得
+	strYear = dtToday.getYear();
+	strMonth = dtToday.getMonth() + 1;
+	strDate = dtToday.getDate();
+	
+	//ここから表示
+	document.write("今日は、",strYear+"年"+strMonth+"月"+strDate+"日"+strDay[dtToday.getDay()]+"曜日","です。");
+//-->
+
+    today = new Date();
+    switch(today.getMonth()){
+      case 10:
+        document.write("<BR>季節は冬…かな？(;^^)");
+      break;
+
+      case 11:
+document.write("<BR>季節は冬です。寒いですね");
+document.write("<img src='http://www.world2.to/wboard1/kaogif/huyu04.gif'>");
+break;
+      case 0:
+        document.write("<BR>季節は冬です。寒いですね<font color='green'></font>");
+
+      break;
+
+      case 1:
+      case 2:
+	document.write("<BR>季節はもうじき春ですね。…それとも、もう春になってるかな？<font color='blue'></font>");
+      break;
+
+      case 3:
+document.write("<BR>季節は春です(^_^)<BR>");
+document.write("<img src='http://www.world2.to/wboard1/kaogif/natu02.gif'>");
+break;
+      case 4:
+	document.write("<BR>季節は春です。暖かくなってきましたね(^_^)");
+      break;
+
+      case 5:
+	document.write("<BR>もうじき夏ですね。今年も暑いんだろうなぁ(^u^<font color='sky blue'></font>)");
+document.write("<img src='http://www.world2.to/wboard1/kaogif/natu05.gif'>");
+      break;
+
+      case 6:
+document.write("<BR>季節は夏ですね。暑いなぁ…<BR>");
+document.write("<img src='http://www.world2.to/wboard1/kaogif/natu07.gif'>");
+break;
+
+      case 7:
+	document.write("<BR>季節は夏ですね。暑いなぁ…<BR>");
+document.write("<img src='http://www.world2.to/wboard1/kaogif/natu08.gif'>");
+      break;
+      
+      case 8:
+	document.write("<BR>だんだん涼しくなって来ましたね。もうじき秋ってかんじですね");
+      case 9:
+	document.write("<BR>季節は秋です。");
+      break;
+    }
+    </SCRIPT>
+<hr size="1" color="gold">
+<SCRIPT LANGUAGE="JavaScript">
+today=new Date();
+h=today.getHours();
+m=today.getMinutes();
+s=today.getSeconds();
+document.write("貴方がこのページに訪問または更新をした時間は、<BR>")
+document.write(h,"時",m,"分",s,"秒","です。<BR>");
+if((h>5)&&(h<=10)){
+//document.bgColor="#000000";
+//document.fgColor="#FFFFFF";
+document.write("おはようございます<BR>");
+document.write("<img src='http://althjp.at-ninja.jp/popkmart08/asa.gif'>")
+}else if((h>10)&&(h<=17)){
+//document.bgColor="#000000";
+//document.fgColor="#FFFFFF";
+document.write("こんにちは<BR>");
+}else{
+/*document.bgColor="#000000";
+document.fgColor="#FFFFFF";*/
+document.write("こんばんは。<BR>");
+document.write("<img src='http://althjp.at-ninja.jp/popkmart08/catnight.gif'>")
+}
+</script>
+<hr size="1" color="gold">
+<SCRIPT>
+<!--
+msg=new Array();
+msg[0]="<bgsound src='http://althjp.at-ninja.jp/mid/OEML-20248.mid' autostart='true' REPEAT='true' loop='true' panel='0' height='0' width='0'>";
+msg[1]="<bgsound src='http://althjp.at-ninja.jp/mid/LoveisLikeaBoomerang.mid' autostart='true' REPEAT='true' loop='true' panel='0' height='0' width='0'>";
+msg[2]="<bgsound src='http://althjp.at-ninja.jp/mid/love_is_like_a_boomerang.mid' autostart='true' REPEAT='true' loop='true' panel='0' height='0' width='0'>";
+msg[3]="<script language='JavaScript' src='http://althjp.at-ninja.jp/mid/AllSeason/Rnd.js'></script>";
+msg[4]="<script language='JavaScript' src='http://althjp-lj.hp.infoseek.co.jp/Music/SE/Rnd.js'></script>";
+msg[5]="<bgsound src='battle-boss.mid' autostart='true' REPEAT='true' loop='true' panel='0' height='0' width='0'>";
+msg[6]="<script language='JavaScript' src='http://althjp-lj.hp.infoseek.co.jp/Music/Rnd.js'></script>";
+i=Math.floor(Math.random()*msg.length);
+document.write(msg[i]);
+document.write("Last updated: ", document.lastModified, "<BR>");
+// -->
+</SCRIPT>
+
+<BR>
+<BR>
+<font size="5"><a href="http://althjp.at-ninja.jp/AlthLand.htm">アルスランドトップへ戻る</a></font>
+</CENTER>
+</BODY>
+</HTML>
